@@ -33,7 +33,7 @@ def main():
 		global ready
 		await client.wait_until_ready()
 		if datetime.datetime.now().hour == 23:
-			channel = server.get_channel(571742303795019776)
+			channel = server.get_channel(574844490854957056)
 			if str(channel) == "bns-news-update":
 				await print_news(channel)
 				update_news_ready= False
@@ -51,9 +51,9 @@ def main():
 		global update_news_ready
 		if not message.author.bot and update_news_ready:
 			await update_news(message.guild)
-		if message.content == "Hello" and str(message.author) == "TheFirstFlame#0017":
+		if message.content == "Hello" and str(message.author) == "Tushiroo#0221":
 			await message.channel.send("*World*")
-		if message.content == "!fp" and str(message.author) == "TheFirstFlame#0017":
+		if message.content == "!fp" and str(message.author) == "Tushiroo#0221":
 			await print_news(message.channel)
 
 	client.run(TOKEN)
