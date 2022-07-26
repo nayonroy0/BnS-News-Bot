@@ -1,0 +1,2 @@
+dblpy==0.2
+discord==1.0.1
