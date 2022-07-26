@@ -6,7 +6,7 @@ from get_news import get_news
 update_news_ready= True
 
 def main():
-	TOKEN = input(MTAwMTA0MTI2MzA4MjA5ODc1OA.GdrvCB.Pt5-eHTr69z9bJ5BG9KDl1W6sPUlKNQhV3uR0A)
+	TOKEN = input()
 	client = discord.Client()
 	
 	async def print_news(channel):
